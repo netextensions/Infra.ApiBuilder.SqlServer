@@ -1,0 +1,35 @@
+﻿<Project Sdk="Microsoft.NET.Sdk">
+  <PropertyGroup>
+    <TargetFramework>netcoreapp3.1</TargetFramework>
+    <RootNamespace>NetExtensions.Infra.ApiBuilder.SqlServer</RootNamespace>
+    <IsPackable>true</IsPackable>
+    <GeneratePackageOnBuild>true</GeneratePackageOnBuild>
+    <Title>NetExtensions Infra.ApiBuilder.SqlServer</Title>
+    <Description>Infra.ApiBuilder.SqlServer</Description>
+    <PackageProjectUrl>https://github.com/netextensions/Infra.ApiBuilder.SqlServer</PackageProjectUrl>
+    <RepositoryUrl>https://github.com/netextensions/Infra.ApiBuilder.SqlServer</RepositoryUrl>
+    <PackageTags>Infra.ApiBuilder.SqlServer,api,.net core</PackageTags>
+    <PackageId>NetExtensions.Infra.ApiBuilder.SqlServer</PackageId>
+    <PackageVersion>1.0.1-preview.3.20181.2</PackageVersion>
+    <PackageLicenseFile>LICENSE</PackageLicenseFile>
+    <Authors>netextensions.io</Authors>
+    <PackageIcon>icon.png</PackageIcon>
+  </PropertyGroup>
+  <ItemGroup>
+    <None Include="..\..\LICENSE">
+      <Pack>True</Pack>
+      <PackagePath></PackagePath>
+    </None>
+    <None Include="..\..\icon.png" Pack="true" Visible="false" PackagePath="" />
+  </ItemGroup>
+  <ItemGroup>
+    <PackageReference Include="AutoMapper.Extensions.Microsoft.DependencyInjection" Version="7.0.0" />
+    <PackageReference Include="MediatR.Extensions.Microsoft.DependencyInjection" Version="8.0.0" />
+    <PackageReference Include="NetExtensions.Infra.SqlServer" Version="1.0.0-preview.3.20181.2" />
+    <PackageReference Include="NetExtensions.Infra.ServiceHostBuilder" Version="1.0.3" /> 
+    <PackageReference Include="NetExtensions.Extensions.SwashbuckleWithOauth" Version="1.0.0" />
+    <PackageReference Include="NetExtensions.Extensions.SerilogApplicationBuilder" Version="1.0.0" />
+    <PackageReference Include="NetExtensions.Core.Handlers" Version="1.0.4" />
+  </ItemGroup>
+
+</Project>
